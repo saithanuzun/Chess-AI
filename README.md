@@ -1,6 +1,6 @@
 # Chess-AI
 
-This project is a Python chess engine powered by deep learning. It uses a convolutional neural network trained on 20,000 human games and approximately 40,000 chess positions to predict the best move in any given position. The engine receives input as a FEN string, which is converted into a 13×8×8 PyTorch tensor. It then classifies over the full 64×63 UCI‑legal move space to produce its predictions. The model is treated as a classification problem, cross‑entropy loss and the Adam optimizer are used to train. Training ran for roughly 12 hours and produced strong accuracy. Although the network occasionally outputs illegal moves, future improvements such as masking legal moves could further enhance its reliability.
+This project is a Python chess engine powered by deep learning. It uses a convolutional neural network trained on 20,000 human games and approximately 40,000 chess positions to predict the best move in any given position. The engine receives input as a FEN string, which is converted into a 13×8×8 PyTorch tensor. It then classifies over the full 64×63 UCI‑legal move space to produce its predictions. The model is treated as a classification problem, cross‑entropy loss and the Adam optimizer are used to train. Training ran for roughly 12 hours.
 
 <!-- Chess AI Predictions - Testing Snippet -->
 <div class="chess-ai-container">
